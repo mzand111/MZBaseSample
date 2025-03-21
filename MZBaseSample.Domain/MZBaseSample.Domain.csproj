@@ -9,4 +9,10 @@
     <PackageReference Include="MZBase.Domain" Version="2.0.2" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Diagrams\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectCapability Include="CSharp;Managed;ClassDesigner" />
+  </ItemGroup>
 </Project>
