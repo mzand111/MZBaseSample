@@ -1,0 +1,45 @@
+﻿curl -X 'POST' \
+  'https://localhost:7180/Company' \
+  -H 'accept: */*' \
+  -H 'Content-Type: application/json' \
+  -d '{
+  "name": "Company1",
+  "companyOwnershipType": 1,
+  "registrationNumber": 12,
+  "registrationDate": "2021-03-21T00:00:00Z",
+  "companyBranches": [
+    {
+      "countryId": 1,
+      "phoneNumber": "223344"
+    },
+    {
+      "countryId": 2,
+      "phoneNumber": "443344"
+    }
+  ]
+}'
+
+
+curl -X 'PUT' \
+  'https://localhost:7180/Company' \
+  -H 'accept: */*' \
+  -H 'Content-Type: application/json' \
+  -d '{
+  "id": 2,
+  "name": "Company2_Edited",
+  "companyOwnershipType": 2,
+  "registrationNumber": 13,
+  "registrationDate": "2021-03-20T00:00:00Z",
+  "companyBranches": [
+    {
+      "id": 1,
+      "countryId": 2,
+      "phoneNumber": "2233445"
+    },
+   {
+      "id": 0,
+      "countryId": 3,
+      "phoneNumber": "5566"
+    }
+  ]
+}'
