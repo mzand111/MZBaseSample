@@ -4,3 +4,6 @@ This is the UML diagram of the domain models.
 ![Diagram](https://github.com/user-attachments/assets/062f2489-f63f-42e6-b060-f3129f0e34ab)
 
 While this sample is quite simple and the use of these patterns may not be strictly necessary for a context of this complexity, exploring this repository can provide valuable insights into utilizing the MZBase library's base classes effectively.
+
+## ToDo
+The next step involves introducing a set of automated tests to demonstrate the use of the MZBase.Test library in facilitating automated test generation at the service level.
