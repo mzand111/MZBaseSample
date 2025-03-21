@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.13.35825.156
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MZBaseSample.Console", "MZBaseSample.Console\MZBaseSample.Console.csproj", "{AFA6FA73-D3F5-4F0F-8A0F-25F74A3C3EE9}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MZBaseSample.Domain", "MZBaseSample.Domain\MZBaseSample.Domain.csproj", "{158DDFEA-FC5A-4771-BFFB-2126002A88E6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MZBaseSample.Data", "MZBaseSample.Data\MZBaseSample.Data.csproj", "{6D3B93BD-C7F3-4630-93EB-69879EE1C249}"
@@ -21,10 +19,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{AFA6FA73-D3F5-4F0F-8A0F-25F74A3C3EE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AFA6FA73-D3F5-4F0F-8A0F-25F74A3C3EE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AFA6FA73-D3F5-4F0F-8A0F-25F74A3C3EE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AFA6FA73-D3F5-4F0F-8A0F-25F74A3C3EE9}.Release|Any CPU.Build.0 = Release|Any CPU
 		{158DDFEA-FC5A-4771-BFFB-2126002A88E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{158DDFEA-FC5A-4771-BFFB-2126002A88E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{158DDFEA-FC5A-4771-BFFB-2126002A88E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
